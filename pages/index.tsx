@@ -6,6 +6,7 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Date from '../components/date'
 import { GetStaticProps } from 'next';
+import React from 'react';
 
 export const getStaticProps: GetStaticProps = async () => {
   const allPostsData = getSortedPostsData();
