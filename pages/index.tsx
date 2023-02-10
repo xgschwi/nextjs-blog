@@ -29,6 +29,7 @@ export default function Home({ allPostsData }: {
       <Head>
         <title>{siteTitle}</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="language" content="English"/>
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
